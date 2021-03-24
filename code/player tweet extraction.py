@@ -44,4 +44,3 @@ for (i,j) in zip(keywords_df['Twitter'],keywords_df['Player']):
             break
     except:
         print(player_name)
-
