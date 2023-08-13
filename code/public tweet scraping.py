@@ -14,10 +14,10 @@ def preprocessing(tweet):
     tweet = p.clean(tweet)
     return tweet
 
-api_key = "YUjbV05MDVZvQflMALiRXDcDc"
-api_secret = "uePHRGrDF3ptyOpnXj78J6A5AKgByN1RGZG2Y1Xb4H6ivWFMeb"
-access_token = "1029941797307408384-1kVBVyeAO6OA6y4dTgQNPlhBpQBSPu"
-access_token_secret = "nPNgmEne6K59nUvhMrAcrHmVWY9HKYDnkGJXm0Q6mVdTW"
+api_key = ""
+api_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(api_key, api_secret)
 auth.set_access_token(access_token, access_token_secret)
